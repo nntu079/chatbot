@@ -46,9 +46,6 @@ model1.load_state_dict(torch.load("model/model.pth"))
 
 model1.eval()
 
-
-
-
 while(1):
     text = input("#")
     if(text == 'c'):
